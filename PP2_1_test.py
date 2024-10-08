@@ -1,11 +1,11 @@
 import os.path
 import sys
-import PP1_10
+import PP2_1
 
-def test_q1_1(capsys):
+def test_q2_1(capsys):
 
 	try:
-		exists = os.path.exists("PP1_10.py")
+		exists = os.path.exists("PP2_1.py")
 		assert exists
 	except:
 		sys.exit()
